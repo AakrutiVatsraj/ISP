@@ -50,7 +50,7 @@
         </style>
     </head>
     <body>
-        <center><h1>Login Form</h1></center>
+        <center><h1>User Login</h1></center>
         <form action="#" method="post">
             {% csrf_token %}
             {% load static %}
@@ -63,7 +63,7 @@
                 <label for='password'><b>Password : </b></label>
                 <input type="password" placeholder="Enter Password" name="password" required><br>  
                 <button type="submit"><b>Login</b></button><br>     
-                Don't have accounct <a href="http://localhost:8000/signup/"> register </a>
+                Don't have account? <a href="http://localhost:8000/signup/"> register </a>
             </div></center>
         </form>
     </body>
